@@ -4,8 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock paper scissors</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+
+    <div class="game-container">
+        <h1>Rock, paper, scissors</h1>
+        <div class="score-board">
+          <div id="user-score">0</div>
+          <span>:</span>
+          <div id="computer-score">0</div>
+        </div>
+        <div class="result" >
+          <p id="result-text">Make your yoice</p>
+          <button id="play-again" hidden>Play again</button>
+        </div>
+        <div class="choices-container">
+          <button id="rock" class="choices">✊</button>
+          <button id="paper" class="choices">✋</button>
+          <button id="scissors" class="choices">🖖</button>
+        </div>
+      </div>
    
     <script src="piedra-papel.js"></script>
    
